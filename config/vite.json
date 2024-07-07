@@ -2,7 +2,7 @@
   "all": {
     "sourceCodeDir": "app/javascript",
     "watchAdditionalPaths": [],
-    "additionalEntrypoints": ["app/views/islands/**/!(*.html|*.erb)"]
+    "additionalEntrypoints": ["app/views/islands/**/*.(js|css)"]
   },
   "development": {
     "autoBuild": true,
