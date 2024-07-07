@@ -1,0 +1,10 @@
+<turbo-frame id="island-2">
+  <% base_name = File.basename(__FILE__, ".html.erb") %>
+  <% base_path = "/app/views/islands/#{base_name}" %>
+  <%= vite_javascript_tag "#{base_path}.js" %>
+  <%= vite_stylesheet_tag "#{base_path}.css" %>
+
+  <div class="island-2">
+    Hello From Island 2
+  </div>
+</turbo-frame>

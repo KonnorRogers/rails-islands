@@ -1,0 +1,19 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<style>
+  turbo-frame {
+    display: block;
+  }
+  turbo-frame[loading="lazy"][busy] {
+    background-color: rgba(255, 0, 0, 0.54);
+  }
+</style>
+
+<!-- Immediately render island-1 -->
+<%= render partial: "islands/island_1" %>
+
+
+<turbo-frame id="island-2" loading="lazy" src="/islands/island_2">
+  Loading Island 2...
+</turbo-frame>
