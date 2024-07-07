@@ -2,6 +2,10 @@
 
 A small POC of how you could implement "islands" in Rails using Vite + Turbo frames
 
+## Demonstration
+
+<video playsinline controls src="https://github.com/KonnorRogers/rails-islands/assets/26425882/73420303-ee1f-4167-83d5-e029d45e98bf"></video>
+
 ## How does it work?
 
 It works by (ab)using `additionalEntrypoints` from Vite Rails, and then using View paths as conventions to grab the associated "sidecar assets" (co-located CSS / JS files) and loads them via `<turbo-frame>`s. It also comes with an `IslandsController` for lazy loading an island from a URL.
