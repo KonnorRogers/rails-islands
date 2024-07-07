@@ -4,7 +4,7 @@ A small POC of how you could implement "islands" in Rails using Vite + Turbo fra
 
 ## Demonstration
 
-<video playsinline controls src="https://github.com/KonnorRogers/rails-islands/assets/26425882/73420303-ee1f-4167-83d5-e029d45e98bf"></video>
+<video playsinline controls width="250" src="https://github.com/KonnorRogers/rails-islands/assets/26425882/73420303-ee1f-4167-83d5-e029d45e98bf"></video>
 
 ## How does it work?
 
