@@ -38,7 +38,7 @@ There's also an `IslandsController` which is responsible for lazy-loading island
 
 - The steps for making an island are very manual right now by needing to wrap in a `<turbo-frame>`, supply an `id`, and manually add the CSS / JS files to be loaded in the view. (Check out [app/views/islands](/app/views/islands) and check out the `.html.erb` partials to see how this is done.
 
-- Right now only 1 island is allowed per page due to how `<turbo-frame>` requires ids to work properly. This seems fine...I doubt you load the same island twice. This will also inject your CSS / JS from your island multiple times as well.
+- Right now only 1 instance of any particular island is allowed per page due to how `<turbo-frame>` requires ids to work properly. This seems fine...I doubt you load the same island twice. This will also inject your CSS / JS from your island multiple times as well.
 
 ## Running the repo
 
